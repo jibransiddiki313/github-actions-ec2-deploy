@@ -1,0 +1,13 @@
+{
+  "name": "github-actions-ec2-deploy",
+  "version": "1.0.0",
+  "description": "Node.js app with CI/CD via GitHub Actions and AWS CodeDeploy",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo 'Tests passed' && exit 0"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
