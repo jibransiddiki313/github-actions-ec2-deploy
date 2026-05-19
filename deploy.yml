@@ -35,4 +35,4 @@ jobs:
             npm install --production
             pkill -f "node app.js" || true
             nohup node app.js > /var/log/myapp.log 2>&1 &
-            echo "Deployed successfully!"
+            echo "Deployed!"
